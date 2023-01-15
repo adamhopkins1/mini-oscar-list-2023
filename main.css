@@ -1,0 +1,53 @@
+:root{
+    --golden:#ffdd00;
+    --blue:#4394d1;
+    --red:#e0363681;
+}
+
+body{
+    background:var(--bg);
+    font-family:Helvetica;
+}
+
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    list-style:circle;
+}
+
+.list{
+    list-style:square;
+}
+
+#msg{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-theme{
+   --bg:var(--golden);
+   --font-color:var(--red);
+   --btnBg:var(--red);
+   --btnFontColor:Var(--blue);
+}
+
+.dark-theme{
+    --bg:var(--red);
+    --fontColor:var(--golden);
+    --btnBg:var(--blue);
+    --btnFontColor:var(--red);
+}
+
+.btn{
+    position:absolute;
+    top:20px;
+    left:250px;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border:none;
+    color:var(--btnFontColor);
+    background-color:var(--btnBg);
+}
+
